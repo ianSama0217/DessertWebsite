@@ -1,0 +1,227 @@
+$themeColor: #d38282;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+p {
+  font-weight: normal;
+}
+
+body {
+  background-color: #fffaea;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    // border: 1px solid black;
+    margin-bottom: 10vh;
+
+    .box {
+      height: 100px;
+      width: 100px;
+      background-color: $themeColor;
+      margin: 2vw;
+    }
+
+    .bar {
+      height: 50px;
+      width: 50px;
+      margin: 3vw;
+      transition: 0.5s;
+
+      &:hover {
+        height: 70px;
+        width: 70px;
+      }
+    }
+  }
+
+  .main {
+    .titleArea {
+      //   border: 1px solid red;
+      display: flex;
+      margin: 0px 4vw 5vh 4vw;
+      .textArea {
+        flex: 1 1 200px;
+        //   border: 1px solid rgb(132, 0, 255);
+        display: flex;
+        flex-flow: column wrap;
+
+        h1 {
+          margin-top: 2rem;
+          margin-left: 2rem;
+          font-size: 4rem;
+        }
+
+        p {
+          font-size: 1.5rem;
+          margin: 10px;
+        }
+      }
+
+      .titleImg {
+        flex: 1 1 250px;
+        height: auto;
+        width: 350px;
+      }
+    }
+
+    .saleArea {
+      // border: 1px solid red;
+      margin: 100px 4vw 5vh 4vw;
+      position: relative;
+
+      h2 {
+        font-size: 4rem;
+        position: absolute;
+        left: 40%;
+        top: -75px;
+      }
+
+      .saleImgArea {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 100px;
+        position: relative;
+
+        .saleImg {
+          height: auto;
+          width: 25vw;
+        }
+
+        p {
+          font-size: 1.5rem;
+          height: 40px;
+          padding: 5px 50px;
+          background: $themeColor;
+          color: white;
+          position: absolute;
+          bottom: 15px;
+          margin-left: 75px;
+          transition: 0.5s;
+
+          &:hover {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+
+    .line {
+      border: 1px solid black;
+      margin: 10px 10vw;
+    }
+
+    .newsArea {
+      // border: 1px solid red;
+      margin: 100px 4vw 5vh 4vw;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+
+      h2 {
+        font-size: 4rem;
+        position: absolute;
+        left: 40%;
+      }
+
+      .newsFlex {
+        margin-top: 100px;
+
+        .newsImg {
+          height: auto;
+          width: 25vw;
+        }
+
+        .newsText {
+          background-color: white;
+          width: 25vw;
+
+          p {
+            font-size: 1rem;
+          }
+
+          .detail {
+            width: 8vw;
+            margin: 15px;
+            background-color: #232323;
+            color: white;
+            font-size: 1.5rem;
+            padding: 0.3rem;
+            transition: 0.5s;
+
+            &:hover {
+              scale: 1.25;
+            }
+          }
+        }
+      }
+
+      .moreBox {
+        width: 7rem;
+        height: 3rem;
+        margin: 15px;
+        background-color: $themeColor;
+        color: white;
+        font-size: 3rem;
+        position: absolute;
+        left: 40%;
+        bottom: -20%;
+        transition: 0.5s;
+        box-shadow: 0px 5px 5px grey;
+
+        &:hover {
+          scale: 1.25;
+        }
+      }
+    }
+
+    .arrivalArea {
+      // border: 1px solid blue;
+      margin: 15rem 4vw 5rem 4vw;
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+
+      .imgBackgroung {
+        height: 45vw;
+        width: 40vw;
+        background-color: #d38282;
+        position: absolute;
+        top: -75px;
+        left: -50px;
+        z-index: -1;
+      }
+
+      .arrivalImg {
+        width: 50%;
+        margin-right: 10vw;
+      }
+
+      .arrivalTextArea {
+        width: 25vw;
+        background-color: #f7cdc0;
+        padding: 15px;
+
+        h2 {
+          font-size: 2rem;
+        }
+        p {
+          margin-top: 1.35rem;
+        }
+      }
+    }
+  }
+
+  .footer {
+    height: 15vh;
+    background-color: $themeColor;
+    margin-top: 15rem;
+  }
+}
