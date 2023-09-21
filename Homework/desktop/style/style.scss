@@ -1,0 +1,52 @@
+a {
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #232323;
+
+  &:active {
+    color: white;
+  }
+}
+
+body {
+  background-color: wheat;
+
+  .grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    //   border: 1px solid black;
+    margin: 30vh 30vw;
+
+    .boxSize {
+      height: 8vw;
+      width: 10vw;
+      border-radius: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.5s;
+
+      &:hover {
+        scale: 1.2;
+      }
+    }
+
+    .login {
+      background-color: rgba(62, 62, 198, 0.5);
+
+      &:hover {
+        background-color: rgba(62, 62, 198, 0.8);
+      }
+    }
+
+    .signUp {
+      background-color: rgba(101, 241, 220, 0.5);
+
+      &:hover {
+        background-color: rgba(101, 241, 220, 0.8);
+      }
+    }
+  }
+}

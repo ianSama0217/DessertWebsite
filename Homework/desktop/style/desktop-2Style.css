@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1,
+label {
+  font-weight: normal;
+}
+
+body {
+  background-color: #9eb1bb;
+}
+body .signUpArea {
+  height: 350px;
+  margin: 7% 25%;
+}
+body .signUpArea h1 {
+  font-size: 3rem;
+  margin-left: inherit;
+  margin-bottom: 5%;
+}
+body .signUpArea .formArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 15%;
+}
+body .signUpArea .formArea label {
+  font-size: 1.35rem;
+  margin-top: 10px;
+  color: #2e3337;
+}
+body .signUpArea .formArea input {
+  border-style: none;
+  width: 25rem;
+  height: 1.5rem;
+  border-radius: 5px;
+  font-size: 1.15rem;
+  color: calc(infinity);
+}
+body .signUpArea .formArea #email {
+  background-image: url("../icon/email.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding-left: 5%;
+}
+body .signUpArea .formArea #name {
+  background-image: url("../icon/user-dark.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding-left: 5%;
+}
+body .signUpArea .formArea #password {
+  background-image: url("../icon/password.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding-left: 5%;
+}
+body .signUpArea .formArea #rePassword {
+  margin-bottom: 5%;
+  background-image: url("../icon/password.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding-left: 5%;
+}
+body .signUpArea .formArea button {
+  height: 40px;
+  width: 100px;
+  background-color: #4d6674;
+  color: white;
+  font-size: 1.35rem;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 30%;
+}/*# sourceMappingURL=desktop-2Style.css.map */

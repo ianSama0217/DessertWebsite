@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1,
+label {
+  font-weight: normal;
+}
+
+body {
+  background-color: #9eb1bb;
+
+  .signUpArea {
+    height: 350px;
+    margin: 7% 25%;
+    // border: 1px solid red;
+
+    h1 {
+      font-size: 3rem;
+      margin-left: inherit;
+      margin-bottom: 5%;
+    }
+
+    .formArea {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      //   border: 1px solid green;
+      margin-left: 15%;
+
+      label {
+        font-size: 1.35rem;
+        margin-top: 10px;
+        color: #2e3337;
+      }
+
+      input {
+        border-style: none;
+        width: 25rem;
+        height: 1.5rem;
+        border-radius: 5px;
+        font-size: 1.15rem;
+        color: 2e3337;
+      }
+
+      #email {
+        background-image: url("../icon/email.svg");
+        background-size: auto;
+        background-repeat: no-repeat;
+        padding-left: 5%;
+      }
+
+      #name {
+        background-image: url("../icon/user-dark.svg");
+        background-size: auto;
+        background-repeat: no-repeat;
+        padding-left: 5%;
+      }
+
+      #password {
+        background-image: url("../icon/password.svg");
+        background-size: auto;
+        background-repeat: no-repeat;
+        padding-left: 5%;
+      }
+
+      #rePassword {
+        margin-bottom: 5%;
+        background-image: url("../icon/password.svg");
+        background-size: auto;
+        background-repeat: no-repeat;
+        padding-left: 5%;
+      }
+
+      button {
+        height: 40px;
+        width: 100px;
+        background-color: #4d6674;
+        color: white;
+        font-size: 1.35rem;
+        border-radius: 5px;
+        border-style: none;
+        margin-left: 30%;
+      }
+    }
+  }
+}

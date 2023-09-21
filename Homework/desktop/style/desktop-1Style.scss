@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1,
+a,
+p {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #98a2b3;
+  margin-top: 30vh;
+
+  .mainArea {
+    // border: 1px solid red;
+
+    .grid {
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+
+      h1 {
+        font-size: 3rem;
+        //要致中
+      }
+
+      .loginArea {
+        position: relative;
+        p {
+          font-size: 1.35rem;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+        }
+
+        span {
+          font-size: 1.35rem;
+          position: absolute;
+          left: -50px;
+          top: 150px;
+        }
+
+        .inputSize {
+          height: 1.5rem;
+          width: 25rem;
+          border-radius: 5px;
+          border-style: none;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+        }
+
+        .emailPTag {
+          left: -90px;
+          top: 20px;
+        }
+
+        .emailInput {
+          left: -90px;
+          top: 50px;
+        }
+
+        .passwordPTag {
+          left: -90px;
+          top: 80px;
+        }
+
+        .passwordInput {
+          left: -90px;
+          top: 110px;
+        }
+
+        .checkBox {
+          height: 1.5rem;
+          width: 1.5rem;
+          position: absolute;
+          left: -90px;
+          top: 150px;
+        }
+
+        a {
+          padding: 5px 20px;
+          color: white;
+          background-color: #4d6674;
+          border-radius: 5px;
+          position: absolute;
+          right: -90px;
+          bottom: -145px;
+          transition: 0.5s;
+
+          &:hover {
+            scale: 1.2;
+          }
+        }
+
+        button {
+          font-size: 1.35rem;
+          padding: 20px 45px;
+          color: white;
+          background-color: #4d6674;
+          border-radius: 5px;
+          border-style: none;
+          position: absolute;
+          bottom: -220px;
+          left: 37px;
+        }
+      }
+    }
+  }
+}

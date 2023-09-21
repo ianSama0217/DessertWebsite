@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1,
+a,
+p {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #98a2b3;
+  margin-top: 30vh;
+}
+body .mainArea .grid h1 {
+  font-size: 3rem;
+}
+body .mainArea .grid .loginArea {
+  position: relative;
+}
+body .mainArea .grid .loginArea p {
+  font-size: 1.35rem;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+body .mainArea .grid .loginArea span {
+  font-size: 1.35rem;
+  position: absolute;
+  left: -50px;
+  top: 150px;
+}
+body .mainArea .grid .loginArea .inputSize {
+  height: 1.5rem;
+  width: 25rem;
+  border-radius: 5px;
+  border-style: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+body .mainArea .grid .loginArea .emailPTag {
+  left: -90px;
+  top: 20px;
+}
+body .mainArea .grid .loginArea .emailInput {
+  left: -90px;
+  top: 50px;
+}
+body .mainArea .grid .loginArea .passwordPTag {
+  left: -90px;
+  top: 80px;
+}
+body .mainArea .grid .loginArea .passwordInput {
+  left: -90px;
+  top: 110px;
+}
+body .mainArea .grid .loginArea .checkBox {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  left: -90px;
+  top: 150px;
+}
+body .mainArea .grid .loginArea a {
+  padding: 5px 20px;
+  color: white;
+  background-color: #4d6674;
+  border-radius: 5px;
+  position: absolute;
+  right: -90px;
+  bottom: -145px;
+  transition: 0.5s;
+}
+body .mainArea .grid .loginArea a:hover {
+  scale: 1.2;
+}
+body .mainArea .grid .loginArea button {
+  font-size: 1.35rem;
+  padding: 20px 45px;
+  color: white;
+  background-color: #4d6674;
+  border-radius: 5px;
+  border-style: none;
+  position: absolute;
+  bottom: -220px;
+  left: 37px;
+}/*# sourceMappingURL=desktop-1Style.css.map */

@@ -1,0 +1,43 @@
+a {
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #232323;
+}
+a:active {
+  color: white;
+}
+
+body {
+  background-color: wheat;
+}
+body .grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30vh 30vw;
+}
+body .grid .boxSize {
+  height: 8vw;
+  width: 10vw;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+body .grid .boxSize:hover {
+  scale: 1.2;
+}
+body .grid .login {
+  background-color: rgba(62, 62, 198, 0.5);
+}
+body .grid .login:hover {
+  background-color: rgba(62, 62, 198, 0.8);
+}
+body .grid .signUp {
+  background-color: rgba(101, 241, 220, 0.5);
+}
+body .grid .signUp:hover {
+  background-color: rgba(101, 241, 220, 0.8);
+}/*# sourceMappingURL=style.css.map */
